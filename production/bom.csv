@@ -1,0 +1,11 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J10, J11, J12, J2, J21, J22, J23, J24, J3, J4, J5, J6, J7, J8, J9",PinHeader_1x01_P2.54mm_Vertical,16,Conn_01x01_Female,
+J13,PinHeader_1x01_P2.54mm_Vertical,1,RESET,
+J14,PinHeader_1x07_P2.54mm_Vertical,1,COMM,
+J15,PinHeader_1x03_P2.54mm_Vertical,1,SEL_VOLTAGE,
+"J16, J17, J18, J19",MountingHole_3.2mm_M3_Pad,4,G,
+J20,PinHeader_1x05_P2.54mm_Vertical,1,COMM,
+U1,WeAct-STM32G431CoreBoard_MCU_Module,1,WeAct-STM32G431CoreBoard,
+"U10, U12, U14, U15, U5, U7",Vishay_MINICAST-3Pin,6,TSSP58038,
+"U11, U13, U16, U6, U8, U9",Vishay_MINICAST-3PinMarek,6,TSSP58038,
+"U2, U4",DIP794W45P254L1969H508Q14,2,CD4072B,

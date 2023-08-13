@@ -1,0 +1,177 @@
+2023-06-18 00:28:00.911 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 00:28:00.963 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 00:28:02.007 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 00:28:02.008 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 00:28:02.017 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 00:28:02.018 [main] TRACE Method 'MainApplication.main()' was performed in 1.22 seconds.
+2023-06-18 00:28:03.144 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'd71c4b331eae192f1170b226692bc8df' making 94 changes' was performed in 1.01 seconds.
+2023-06-18 00:28:03.609 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '3754f7b1706f57854d64f4ade86486c8' making 28 changes' was performed in 0.44 seconds.
+2023-06-18 00:28:04.202 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '717ef1091235816b986a50bc9431d12d' making 44 changes' was performed in 0.57 seconds.
+2023-06-18 00:28:04.304 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board '720bbe6bacdefe27b9939f0e67769b19' making 6 changes' was performed in 0.08 seconds.
+2023-06-18 00:28:04.393 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '78f33e8a1eac9974a480a0953574131c' making 9 changes' was performed in 0.07 seconds.
+2023-06-18 00:28:04.418 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board 'e83c7da10ba876738a7a7559e2c84009' making 0 changes' was performed in 0.01 seconds.
+2023-06-18 00:28:04.418 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 2.40 seconds.
+2023-06-18 00:28:04.419 [Thread-0] INFO  Auto-routing was completed in 2.40 seconds.
+2023-06-18 00:28:04.420 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 00:28:07.661 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 11 vias and 1,373,505.86 trace length running on 15 threads.' was performed in 3.24 seconds.
+2023-06-18 00:28:09.565 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 59 items, 10 vias and 1,363,930.80 trace length running on 15 threads.' was performed in 1.90 seconds.
+2023-06-18 00:28:10.499 [AWT-EventQueue-0] ERROR Cannot invoke "app.freerouting.geometry.planar.FloatPoint.rotate(double, app.freerouting.geometry.planar.FloatPoint)" because "p_point" is null
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.FloatPoint.rotate(double, app.freerouting.geometry.planar.FloatPoint)" because "p_point" is null
+	at app.freerouting.boardgraphics.CoordinateTransform.board_to_screen(CoordinateTransform.java:80) ~[freerouting-1.6.2.jar:unspecified]
+	at app.freerouting.interactive.InteractiveState.mouse_wheel_moved(InteractiveState.java:84) ~[freerouting-1.6.2.jar:unspecified]
+	at app.freerouting.interactive.BoardHandling.mouse_wheel_moved(BoardHandling.java:700) ~[freerouting-1.6.2.jar:unspecified]
+	at app.freerouting.gui.BoardPanel$4.mouseWheelMoved(BoardPanel.java:108) ~[freerouting-1.6.2.jar:unspecified]
+	at java.awt.Component.processMouseWheelEvent(Component.java:6714) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6398) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4604) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2023-06-18 00:28:11.385 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 58 items, 9 vias and 1,395,830.30 trace length running on 15 threads.' was performed in 1.82 seconds.
+2023-06-18 00:28:13.070 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 57 items, 9 vias and 1,384,670.14 trace length running on 15 threads.' was performed in 1.68 seconds.
+2023-06-18 00:28:14.741 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 54 items, 8 vias and 1,415,547.54 trace length running on 15 threads.' was performed in 1.67 seconds.
+2023-06-18 00:28:16.846 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #6 with 54 items, 8 vias and 1,412,883.16 trace length running on 15 threads.' was performed in 2.10 seconds.
+2023-06-18 00:28:18.632 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #7 with 54 items, 8 vias and 1,398,574.75 trace length running on 15 threads.' was performed in 1.78 seconds.
+2023-06-18 00:28:19.978 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #8 with 55 items, 8 vias and 1,397,827.26 trace length running on 15 threads.' was performed in 1.34 seconds.
+2023-06-18 00:28:21.701 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #9 with 55 items, 8 vias and 1,382,793.20 trace length running on 15 threads.' was performed in 1.72 seconds.
+2023-06-18 00:28:23.142 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #10 with 54 items, 8 vias and 1,382,364.45 trace length running on 15 threads.' was performed in 1.44 seconds.
+2023-06-18 00:28:24.704 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #11 with 53 items, 8 vias and 1,382,364.45 trace length running on 15 threads.' was performed in 1.56 seconds.
+2023-06-18 00:28:24.705 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 20.29 seconds.
+2023-06-18 00:28:24.706 [Thread-0] INFO  Route optimization was completed in 20.29 seconds and it improved the design by ~49.69%.
+2023-06-18 00:28:24.720 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 22.70 seconds.
+2023-06-18 00:28:24.721 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
+2023-06-18 00:55:49.673 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 00:55:49.696 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 00:55:50.599 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 00:55:50.600 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 00:55:50.632 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 00:55:50.633 [main] TRACE Method 'MainApplication.main()' was performed in 1.06 seconds.
+2023-06-18 00:55:52.000 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '27de92b2fcffe7ef9d78b1bcae785c94' making 70 changes' was performed in 1.24 seconds.
+2023-06-18 00:55:52.505 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '29d45c70e62577bd6c15907c1dc932f5' making 36 changes' was performed in 0.47 seconds.
+2023-06-18 00:55:52.745 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '7b7c9cc5276765391a61af0fa5c6dcdf' making 16 changes' was performed in 0.21 seconds.
+2023-06-18 00:55:52.969 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board 'eaafc73fab3a20d2bde19045507f941e' making 9 changes' was performed in 0.20 seconds.
+2023-06-18 00:55:53.158 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '93a0f6d2f6ee062344138f7cefeacc85' making 10 changes' was performed in 0.17 seconds.
+2023-06-18 00:55:53.200 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board '098b833bcb4b4dd69483899e89a30d09' making 0 changes' was performed in 0.01 seconds.
+2023-06-18 00:55:53.201 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 2.57 seconds.
+2023-06-18 00:55:53.201 [Thread-0] INFO  Auto-routing was completed in 2.57 seconds.
+2023-06-18 00:55:53.202 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 00:55:55.433 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 7 vias and 1,394,778.05 trace length running on 15 threads.' was performed in 2.23 seconds.
+2023-06-18 00:55:57.460 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 48 items, 6 vias and 1,405,942.02 trace length running on 15 threads.' was performed in 2.02 seconds.
+2023-06-18 00:55:59.631 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 49 items, 5 vias and 1,405,610.07 trace length running on 15 threads.' was performed in 2.17 seconds.
+2023-06-18 00:56:01.173 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 50 items, 5 vias and 1,404,662.63 trace length running on 15 threads.' was performed in 1.54 seconds.
+2023-06-18 00:56:02.676 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 49 items, 4 vias and 1,409,556.23 trace length running on 15 threads.' was performed in 1.50 seconds.
+2023-06-18 00:56:02.677 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 9.47 seconds.
+2023-06-18 00:56:02.678 [Thread-0] INFO  Route optimization was completed in 9.47 seconds and it improved the design by ~49.47%.
+2023-06-18 00:56:02.696 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 12.06 seconds.
+2023-06-18 00:56:02.696 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
+2023-06-18 02:26:09.537 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 02:26:09.561 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 02:26:10.396 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 02:26:10.397 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 02:26:10.472 [main] TRACE Method 'MainApplication.main()' was performed in 1.03 seconds.
+2023-06-18 02:26:10.472 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 02:26:10.720 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '4d461c479bb24c01aaae986250ad62f2' making 21 changes' was performed in 0.11 seconds.
+2023-06-18 02:26:10.776 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'dcded276b8d701a5899ba2b1e966b343' making 0 changes' was performed in 0.02 seconds.
+2023-06-18 02:26:10.777 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.30 seconds.
+2023-06-18 02:26:10.778 [Thread-0] INFO  Auto-routing was completed in 0.30 seconds.
+2023-06-18 02:26:10.778 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 02:26:11.107 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 1,410,646.14 trace length running on 15 threads.' was performed in 0.32 seconds.
+2023-06-18 02:26:11.326 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 6 items, 4 vias and 1,410,646.14 trace length running on 15 threads.' was performed in 0.22 seconds.
+2023-06-18 02:26:11.327 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.55 seconds.
+2023-06-18 02:26:11.327 [Thread-0] INFO  Route optimization was completed in 0.55 seconds.
+2023-06-18 02:26:11.340 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.87 seconds.
+2023-06-18 02:26:11.341 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
+2023-06-18 02:29:16.905 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 02:29:16.933 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 02:29:17.844 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 02:29:17.846 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 02:29:17.858 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 02:29:17.858 [main] TRACE Method 'MainApplication.main()' was performed in 1.02 seconds.
+2023-06-18 02:29:18.097 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '8b6ba7895fc4be1751416a28f78ca8b1' making 20 changes' was performed in 0.12 seconds.
+2023-06-18 02:29:18.144 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'fcd7d73e39665566df2d445f07662491' making 0 changes' was performed in 0.01 seconds.
+2023-06-18 02:29:18.144 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.28 seconds.
+2023-06-18 02:29:18.145 [Thread-0] INFO  Auto-routing was completed in 0.28 seconds.
+2023-06-18 02:29:18.146 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 02:29:18.500 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 1,410,091.54 trace length running on 15 threads.' was performed in 0.35 seconds.
+2023-06-18 02:29:18.663 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 6 items, 4 vias and 1,410,091.54 trace length running on 15 threads.' was performed in 0.16 seconds.
+2023-06-18 02:29:18.664 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.52 seconds.
+2023-06-18 02:29:18.665 [Thread-0] INFO  Route optimization was completed in 0.52 seconds.
+2023-06-18 02:29:18.676 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.82 seconds.
+2023-06-18 02:29:18.677 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
+2023-06-18 02:37:24.680 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 02:37:24.701 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 02:37:25.502 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 02:37:25.503 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 02:37:25.513 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 02:37:25.514 [main] TRACE Method 'MainApplication.main()' was performed in 0.90 seconds.
+2023-06-18 02:37:25.774 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'a938ce6cd1c2043e13536f73d935e0d2' making 21 changes' was performed in 0.13 seconds.
+2023-06-18 02:37:25.826 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '7febce714716ae9bfca48fbadfefb307' making 0 changes' was performed in 0.01 seconds.
+2023-06-18 02:37:25.827 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.31 seconds.
+2023-06-18 02:37:25.828 [Thread-0] INFO  Auto-routing was completed in 0.31 seconds.
+2023-06-18 02:37:25.829 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 02:37:26.048 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 1,410,646.14 trace length running on 15 threads.' was performed in 0.21 seconds.
+2023-06-18 02:37:26.221 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 6 items, 4 vias and 1,410,646.14 trace length running on 15 threads.' was performed in 0.17 seconds.
+2023-06-18 02:37:26.222 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.39 seconds.
+2023-06-18 02:37:26.223 [Thread-0] INFO  Route optimization was completed in 0.39 seconds.
+2023-06-18 02:37:26.237 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.72 seconds.
+2023-06-18 02:37:26.238 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
+2023-06-18 02:44:34.403 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 02:44:34.422 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 02:44:35.073 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 02:44:35.074 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 02:44:35.240 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 02:44:35.241 [main] TRACE Method 'MainApplication.main()' was performed in 0.90 seconds.
+2023-06-18 02:44:35.501 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '07c646028feb37c110fd5b6bbd61fdc3' making 20 changes' was performed in 0.14 seconds.
+2023-06-18 02:44:35.580 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '77b53db27e84834120cc98146610c900' making 0 changes' was performed in 0.03 seconds.
+2023-06-18 02:44:35.580 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.34 seconds.
+2023-06-18 02:44:35.581 [Thread-0] INFO  Auto-routing was completed in 0.34 seconds.
+2023-06-18 02:44:35.581 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 02:44:35.835 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 1,410,368.44 trace length running on 15 threads.' was performed in 0.25 seconds.
+2023-06-18 02:44:36.009 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 6 items, 4 vias and 1,410,368.44 trace length running on 15 threads.' was performed in 0.17 seconds.
+2023-06-18 02:44:36.010 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.43 seconds.
+2023-06-18 02:44:36.011 [Thread-0] INFO  Route optimization was completed in 0.43 seconds.
+2023-06-18 02:44:36.024 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.78 seconds.
+2023-06-18 02:44:36.024 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
+2023-06-18 13:45:16.792 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2023-06-18 13:45:16.816 [main] INFO  Opening '/home/marek/KICAD/IRseeker/IRseeker/freerouting.dsn'...
+2023-06-18 13:45:17.995 [main] INFO  Opening 'freerouting.rules'...
+2023-06-18 13:45:17.996 [main] ERROR File 'freerouting.rules' was not found.
+2023-06-18 13:45:18.025 [Thread-0] INFO  Starting auto-routing...
+2023-06-18 13:45:18.026 [main] TRACE Method 'MainApplication.main()' was performed in 1.34 seconds.
+2023-06-18 13:45:19.322 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '101b16a87a19c48e00e411481763d5b0' making 83 changes' was performed in 1.17 seconds.
+2023-06-18 13:45:19.444 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '7e51fd83ef0279fcc5fef4e1b24aff44' making 6 changes' was performed in 0.09 seconds.
+2023-06-18 13:45:19.584 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '38f471b6cd3578816caf3af2b99d95b4' making 3 changes' was performed in 0.12 seconds.
+2023-06-18 13:45:19.685 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board '67e487475bbffe593e787301e90cae69' making 3 changes' was performed in 0.08 seconds.
+2023-06-18 13:45:19.727 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '9b3c036201a7b6b42fb53e65e7643632' making 0 changes' was performed in 0.02 seconds.
+2023-06-18 13:45:19.730 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 1.70 seconds.
+2023-06-18 13:45:19.730 [Thread-0] INFO  Auto-routing was completed in 1.70 seconds.
+2023-06-18 13:45:19.731 [Thread-0] INFO  Starting route optimization on 15 threads...
+2023-06-18 13:45:20.684 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 1,054,801.71 trace length running on 15 threads.' was performed in 0.95 seconds.
+2023-06-18 13:45:21.585 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 55 items, 4 vias and 1,054,801.71 trace length running on 15 threads.' was performed in 0.90 seconds.
+2023-06-18 13:45:21.586 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 1.85 seconds.
+2023-06-18 13:45:21.587 [Thread-0] INFO  Route optimization was completed in 1.85 seconds.
+2023-06-18 13:45:21.599 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 3.57 seconds.
+2023-06-18 13:45:21.600 [Thread-0] INFO  Saving '/home/marek/KICAD/IRseeker/IRseeker/freerouting.ses'...
