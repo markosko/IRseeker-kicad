@@ -1,2 +1,5 @@
 .zip
 logs
+IRseekerv2-backups
+*.lck
+board2pdf.config.ini
