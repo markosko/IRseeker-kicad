@@ -1,5 +1,6 @@
 .zip
 logs
 IRseekerv2-backups
-*.lck
+**.kicad_pcb.lck
+**.kicad_sch.lck
 board2pdf.config.ini
