@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "bluepill")(type "KiCad")(uri "${KIPRJMOD}/stm32bluepill_MCU_Module.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "CD4012")(type "KiCad")(uri "${KIPRJMOD}/CD40xx/CD4012BE.kicad_sym")(options "")(descr ""))
 )

@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "BluePillF4 Lib")(type "KiCad")(uri "$(KIPRJMOD)/BluePillF4 Lib.pretty")(options "")(descr ""))
-)

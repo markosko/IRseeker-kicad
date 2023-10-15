@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name "bluepill")(type "KiCad")(uri "${KIPRJMOD}/Bluepill.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "STM32G4")(type "KiCad")(uri "${KIPRJMOD}/STM32G4")(options "")(descr ""))
+  (lib (name "CD70xx")(type "KiCad")(uri "${KIPRJMOD}/CD40xx")(options "")(descr ""))
+  (lib (name "Vishay")(type "KiCad")(uri "${KIPRJMOD}/Vishay.pretty")(options "")(descr ""))
 )

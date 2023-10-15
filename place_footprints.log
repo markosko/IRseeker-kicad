@@ -1,84 +1,79 @@
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 378:Plugin executed on: 'linux'
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 379:Plugin executed with python version: '3.10.9 (main, Dec 19 2022, 17:35:49) [GCC 12.2.0]'
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 380:KiCad build version: (6.0.11)
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 381:Plugin version: 1.2.5
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 382:Frame repr: <wx._core.Frame object at 0x7f0cc6d83250>
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U5 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U2 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J20 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J14 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J13 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J16 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J17 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J19 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J15 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U1 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J18 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U4 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U16 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J12 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J11 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U10 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J7 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J5 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J10 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U6 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J2 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J6 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U8 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U9 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U12 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U11 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U7 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U15 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U13 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J3 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J9 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J4 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint U14 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J1 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint J8 on root level
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 570:Reference designator is: J
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 571:Reference number is: 12
-06-18 13:35:55 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 603:Sorted and filtered list:
-['J1', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'J9', 'J10', 'J11', 'J12', 'J13', 'J14', 'J15', 'J16', 'J17', 'J18', 'J19', 'J20']
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 641:Footprints to place:
-['J1', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'J9', 'J10', 'J11', 'J12']
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 262:Starting placing with circular layout
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 272:reference footprint position at: wxPoint(115750000, 49000000)
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 277:rotation center at: (115750000, 94000000.0)
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 379:Text of: J12 has property "Keep upright" rotation might not look as intended
-06-18 13:36:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 654:Placing complete
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 641:Plugin executed on: 'linux'
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 642:Plugin executed with python version: '3.11.3 (main, Jun  5 2023, 09:32:32) [GCC 13.1.1 20230429]'
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 643:KiCad build version: 7.0.6
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 644:Plugin version: 2.1.2
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 645:Frame repr: <wx._core.Frame object at 0x7f108951be20>
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U15 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U14 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U12 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U10 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U7 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U5 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U16 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U6 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U8 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U9 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U11 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U13 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW2 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R3 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW1 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint Y1 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J28 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J27 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J26 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J20 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J14 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J13 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U17 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U4 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U3 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U2 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R2 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C7 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C6 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C5 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C4 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C3 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C2 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C1 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J21 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J22 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J23 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J16 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J17 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J19 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J15 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J18 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J24 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J12 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J11 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J7 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J5 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J10 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J6 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J9 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J4 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+10-15 17:42:08 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J8 on root level
+10-15 17:42:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 824:Reference designator is: J
+10-15 17:42:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 825:Reference number is: 19
+10-15 17:42:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 857:Sorted and filtered list:
+['J1', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'J9', 'J10', 'J11', 'J12', 'J13', 'J14', 'J15', 'J16', 'J17', 'J18', 'J19', 'J20', 'J21', 'J22', 'J23', 'J24']
+10-15 17:42:09 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 358:wx.Colour(56, 60, 74, 255)
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 489:'40'
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 895:Footprints to place:
+['J16', 'J17', 'J18', 'J19']
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 398:Starting placing with matrix layout
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 450:Text of: J19 has property "Keep upright" rotation might not look as intended
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 450:Text of: J19 has property "Keep upright" rotation might not look as intended
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 450:Text of: J19 has property "Keep upright" rotation might not look as intended
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 450:Text of: J19 has property "Keep upright" rotation might not look as intended
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 450:Text of: J19 has property "Keep upright" rotation might not look as intended
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.place_footprints 450:Text of: J19 has property "Keep upright" rotation might not look as intended
+10-15 17:42:27 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 965:Placing complete
