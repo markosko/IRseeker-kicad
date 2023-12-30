@@ -12,7 +12,7 @@ Serial over **TX3_5V** / **RX3_5V** pins is **5V tolerant**.
 
 **I2C** is 5V tolerant.
 
-Logic **AND** gates **CD4082BE** at **U2** and **U4** are optional for chip at PC6 pin input to detect if any TSSP4038 detects ball.
+Logic **AND** gates **HEF4082BT** at **U2** and **U4** are optional for chip at PC6 pin input to detect if any TSSP4038 detects ball.
 
 **AMS1117** part is not needed in case of powering from 3.3V source
 
