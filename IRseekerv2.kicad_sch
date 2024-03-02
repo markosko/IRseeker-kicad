@@ -2866,7 +2866,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 298.577 99.314 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 01b161e2-cacd-4091-ba4a-30caf1023108)
     (property "Reference" "J26" (at 301.9552 97.4669 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2892,7 +2892,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 140.843 156.21 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03f32e0c-c2c3-4b1e-9b0a-31d9cf9c91d6)
     (property "Reference" "J13" (at 142.113 157.8793 90)
       (effects (font (size 1.27 1.27)))
@@ -2920,7 +2920,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 172.847 223.012 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 042bc51c-1dcc-455a-b39b-ad8b955267da)
     (property "Reference" "J1" (at 173.6852 221.1649 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3021,7 +3021,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 329.946 100.584 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 109eef1c-6881-44b1-8267-5b51e9df84b3)
     (property "Reference" "J27" (at 333.3242 98.7369 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3153,7 +3153,7 @@
     (property "Reference" "R5" (at 336.296 89.4547 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4.7kR" (at 336.296 91.8789 90)
+    (property "Value" "82kR" (at 336.296 91.8789 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 336.296 96.393 90)
@@ -3388,7 +3388,7 @@
     (property "Value" "Crystal" (at 30.607 161.798 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Crystal:Crystal_HC49-4H_Vertical" (at 34.544 161.798 0)
+    (property "Footprint" "Crystal:Crystal_SMD_HC49-SD" (at 34.544 161.798 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.544 161.798 0)
@@ -3406,7 +3406,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 267.589 101.346 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f2f8ce1-b033-4c19-900f-d5a37ee6a0c5)
     (property "Reference" "J20" (at 270.9672 99.4989 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3836,7 +3836,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 215.138 249.555 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54eeadcd-9d0b-4b87-9e20-cdccd26e241a)
     (property "Reference" "J17" (at 215.773 245.779 0)
       (effects (font (size 1.27 1.27)))
@@ -4197,7 +4197,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 215.138 263.271 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fc0c418-d419-4e47-b349-4715dd3b4586)
     (property "Reference" "J19" (at 215.773 259.495 0)
       (effects (font (size 1.27 1.27)))
@@ -4376,7 +4376,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 214.63 255.016 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86d27db0-5c3b-4400-8b06-c00d5ffa93e0)
     (property "Reference" "J16" (at 215.265 251.24 0)
       (effects (font (size 1.27 1.27)))
@@ -4552,7 +4552,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 226.06 88.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b394adf-8b86-41dc-bf72-d3c7423ca6a0)
     (property "Reference" "J14" (at 229.4382 87.0529 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5167,7 +5167,7 @@
     (property "Reference" "R4" (at 326.136 89.5817 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4.7kR" (at 326.136 92.0059 90)
+    (property "Value" "82kR" (at 326.136 92.0059 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 326.136 96.52 90)
@@ -5291,7 +5291,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 225.552 106.172 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5cc3cd5-e20a-4b55-9d3d-90757c6294eb)
     (property "Reference" "J28" (at 228.9302 104.3249 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5444,7 +5444,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 215.138 258.445 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f9d330e8-2eb1-455c-88b0-c9f0877cfe32)
     (property "Reference" "J18" (at 212.344 258.572 0)
       (effects (font (size 1.27 1.27)))

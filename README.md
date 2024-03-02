@@ -18,6 +18,22 @@ Logic **AND** gates **HEF4082BT** at **U2** and **U4** are optional for chip at 
 
 Programmed by external STLINK or similar over SWD pins at J13 header.
 
+# 3D view from KiCad
+
 ![Top side](./images/TOPSIDE.png)
 
 ![Bottom side](./images/BOTTOMSIDE.png)
+
+# Assembled images
+
+![Top side assembled](./images/assembled/top.jpg)
+
+![Bottom side assembled](./images/assembled/bottom.jpg)
+
+# PCB sponsored by
+
+![PCBWay](./images/sponsor/pcbway.png)
+
+<p align=center>
+PCBWay is your one stop PCB prototype service.
+</p>
