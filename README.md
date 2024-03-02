@@ -18,6 +18,9 @@ Logic **AND** gates **HEF4082BT** at **U2** and **U4** are optional for chip at 
 
 Programmed by external STLINK or similar over SWD pins at J13 header.
 
+
+[Basic serial code](https://github.com/markosko/IRseeker-stmduino-serial)
+
 # 3D view from KiCad
 
 ![Top side](./images/TOPSIDE.png)
