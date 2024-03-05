@@ -20,6 +20,10 @@ Programmed by external STLINK or similar over SWD pins at J13 header.
 
 
 [Basic serial code](https://github.com/markosko/IRseeker-stmduino-serial)
+[Basic I2C code](https://github.com/markosko/IRseeker-stmduino-i2c)
+
+
+
 
 # 3D view from KiCad
 
