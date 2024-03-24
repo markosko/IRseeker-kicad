@@ -20,6 +20,7 @@ Programmed by external STLINK or similar over SWD pins at J13 header.
 
 
 [Basic serial code](https://github.com/markosko/IRseeker-stmduino-serial)
+
 [Basic I2C code](https://github.com/markosko/IRseeker-stmduino-i2c)
 
 
@@ -37,10 +38,12 @@ Programmed by external STLINK or similar over SWD pins at J13 header.
 
 ![Bottom side assembled](./images/assembled/bottom.jpg)
 
-# PCB sponsored by
 
-![PCBWay](./images/sponsor/pcbway.png)
+# Sponsored by
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/markosko/IRseeker-kicad/main/images/sponsor/pcbway.png" width=300>
+</p>
 <p align=center>
-PCBWay is your one stop PCB prototype service.
+A big thanks to <a href="https://www.pcbway.com/">PCBway</a> for sponsoring my project! Their rapid-prototyping services provided top-quality PCB boards, streamlining the entire process from order to delivery. I was particularly impressed by their outstanding customer support, which was willing to change few details.
 </p>
